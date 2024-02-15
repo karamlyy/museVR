@@ -1,0 +1,85 @@
+.museum-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    border: 1px solid #E8E8E8;
+    font-size: 16px;
+    color: #333;
+    background-color: #FFFFFF;
+}
+
+.museum-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.museum-card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.museum-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.museum-banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.museum-info {
+    padding: 15px;
+}
+
+.museum-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5D1049;
+}
+
+.no-results {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .museum-title,
+    .museum-name {
+        font-size: 1.8rem;
+    }
+
+    .museum-detail,
+    .museum-list-container {
+        padding: 15px;
+    }
+
+    .search-bar {
+        padding: 8px 15px;
+        margin-bottom: 20px;
+    }
+
+    .museum-description,
+    .museum-location,
+    .museum-website,
+    .museum-hours h3 {
+        font-size: 0.9rem;
+    }
+}

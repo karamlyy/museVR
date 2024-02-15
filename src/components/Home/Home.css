@@ -1,0 +1,72 @@
+.home-container {
+    text-align: center;
+}
+
+.home-header h1 {
+    margin: 20px 0;
+}
+
+
+.hero-section {
+    background: url('../../assets/banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.section-title {
+    background-color: red;
+
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+}
+
+.featured-museums,
+.about-section {
+    padding: 40px 20px;
+}
+
+.featured-museums h2,
+.about-section h2 {
+    color: #5D1049;
+    margin-bottom: 20px;
+}
+
+.home-footer {
+    padding: 20px;
+    background-color: #E8E8E8;
+    color: #333;
+}
+
+.getStarted {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    padding: 0 24px;
+    border-radius: 50px;
+    min-width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #fd0;
+    font-weight: 500;
+    color: #222;
+    text-decoration: none;
+}
+
+.museum-card-content{
+    margin: 0 10px;
+}
+
+
+.museum-card-content img {
+    margin: 0px;
+    border-radius: 20px;
+}
+
+.museum-banner {
+    width: 95%;
+    display: block;
+}

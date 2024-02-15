@@ -1,0 +1,57 @@
+.museum-detail {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .museum-title {
+    color: #5D1049;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .museum-detail-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .museum-description {
+    color: #333333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .museum-location, .museum-website, .museum-hours h3 {
+    color: #333333;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .museum-website a {
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
+  .museum-website a:hover {
+    text-decoration: underline;
+  }
+  
+  .museum-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .museum-hours {
+    margin-top: 20px;
+  }
+  
