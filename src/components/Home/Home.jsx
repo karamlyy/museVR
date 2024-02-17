@@ -77,7 +77,7 @@ const Home = () => {
                 <div className="hero-content">
                     <h2 className='hero-section-title'>Discover Museums Around Azerbaijan</h2>
                     <p className='hero-section-description'>Explore the art, history, and culture from the comfort of your home.</p>
-                    <button className='getStarted'><Link to="/museums">Get Started</Link></button>
+                    <Link to="/museums" className='getStarted'>Get Started</Link>
                 </div>
             </section>
 

@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../../firebase/firebase-config';
 import './MuseumDetail.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const MuseumDetail = () => {
     const [museum, setMuseum] = useState(null);
@@ -28,7 +30,6 @@ const MuseumDetail = () => {
     }
 
 
-    const locationString = museum.location ? `Latitude: ${museum.location._lat}, Longitude: ${museum.location._long}` : 'No location specified';
     const mapsUrl = museum.location ? `https://www.google.com/maps/search/?api=1&query=${museum.location._lat},${museum.location._long}` : '';
 
     return (
@@ -38,7 +39,13 @@ const MuseumDetail = () => {
                 {museum.detailImages && museum.detailImages.map((image, index) => (
                     <img key={index} src={image} alt={`Detail ${index + 2}`} className="museum-detail-image" />
                 ))}
-            </div>            <p className="museum-description">{museum.description}</p>
+            </div>
+            <div className="museum-images">
+                {museum.vrImages && museum.vrImages.map((image, index) => (
+                    <iframe key={index} src={image} alt={`Detail ${index + 2}`} className="museum-detail-image" />
+                ))}
+            </div>
+            <p className="museum-description">{museum.description}</p>
             <p className="museum-location">
                 Location: <a href={mapsUrl} target="_blank" rel="noopener noreferrer">View on Map</a>
             </p>

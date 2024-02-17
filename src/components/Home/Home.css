@@ -45,14 +45,15 @@
     outline: 0;
     border: none;
     cursor: pointer;
-    padding: 0 24px;
+    padding: 15px;
     border-radius: 50px;
     min-width: 200px;
-    height: 50px;
+    
     font-size: 18px;
     background-color: #fd0;
     font-weight: 500;
     color: #222;
+    align-self: center;
     text-decoration: none;
 }
 
