@@ -71,3 +71,39 @@
     width: 95%;
     display: block;
 }
+
+
+/* Add this to your CSS file */
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  line-height: 1;
+  opacity: 0.75;
+  z-index: 1;
+  padding: 15px;
+  background: #61d8a5; /* Customize color */
+  border-radius: 50%; /* Circular shape */
+  width: 30px; /* Size */
+  height: 30px; /* Size */
+  display: flex !important; /* Override slick's none */
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+}
+
+.slick-prev:hover,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-next:focus {
+  opacity: 1;
+}
+
+.slick-prev {
+  left: -35px;
+}
+
+.slick-next {
+  right: -35px;
+}
+
+/* Adjust the left and right values as needed to position arrows outside the slider */

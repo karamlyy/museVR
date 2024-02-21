@@ -23,38 +23,62 @@ const Home = () => {
         slidesToScroll: 1,
         swipe: true,
         swipeToSlide: true,
-        autoplay: true, 
-        autoplaySpeed: 5000, 
-        
+        autoplay: true,
+        autoplaySpeed: 5000,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
         responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true,
-              swipe: true,
-              swipeToSlide: true,
-              autoplay: true,
-              autoplaySpeed: 5000
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                    swipe: true,
+                    swipeToSlide: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    swipe: true,
+                    swipeToSlide: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000
+                }
             }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              swipe: true,
-              swipeToSlide: true,
-              autoplay: true,
-              autoplaySpeed: 5000
-            }
-          }
         ]
-      };
-      
-      
+    };
+
+    // Custom arrow components for react-slick
+
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, display: "block" }}
+                onClick={onClick}
+            />
+        );
+    }
+
+    function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, display: "block" }}
+                onClick={onClick}
+            />
+        );
+    }
+
 
 
     useEffect(() => {

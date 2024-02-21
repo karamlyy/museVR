@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './FAQ.css'; // Make sure to create this CSS file for styling
+import './FAQ.css';
 
 const faqs = [
   {
@@ -10,7 +10,7 @@ const faqs = [
     question: "How can I find museum operating hours?",
     answer: "Operating hours vary by museum. Please check the specific museum's detail page on our site for the most up-to-date information."
   },
-  // Add more FAQs as needed
+  
 ];
 
 const FAQ = () => {
