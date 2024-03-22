@@ -51,7 +51,7 @@ const MuseumDetail = () => {
             </p>
             {museum.website && <p className="museum-website">Website: <a href={museum.website} target="_blank" rel="noopener noreferrer">{museum.website}</a></p>}
             <div className="museum-hours">
-                <h3>Opening Hours: {museum.hours}</h3>
+                <h3>Working Hours: {museum.hours}</h3>
 
             </div>
         </div>

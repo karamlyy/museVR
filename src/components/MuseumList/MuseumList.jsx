@@ -43,7 +43,7 @@ const MuseumList = () => {
           <div key={museum.id} className="museum-card">
             <Link to={`/museum/${museum.id}`}>
               {museum.bannerImage && (
-                <img src={museum.bannerImage} alt={museum.name} className="museum-banner" />
+                <img src={museum.bannerImage} alt={museum.name} className="museum-banner-list" />
               )}
               <div className="museum-info">
                 <span className="museum-name">{museum.name}</span>

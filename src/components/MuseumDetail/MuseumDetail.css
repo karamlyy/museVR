@@ -15,8 +15,8 @@
 }
 
 .museum-detail-image {
-  width: 100%;
-  height: auto;
+  width: 250px;
+  height: 200px;
   margin-bottom: 20px;
   border-radius: 8px;
 }
