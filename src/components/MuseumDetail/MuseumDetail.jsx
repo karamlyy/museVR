@@ -35,16 +35,17 @@ const MuseumDetail = () => {
     return (
         <div className="museum-detail">
             <h1 className="museum-title">{museum.name}</h1>
-            <div className="museum-images">
+            {/* <div className="museum-images">
                 {museum.detailImages && museum.detailImages.map((image, index) => (
                     <img key={index} src={image} alt={`Detail ${index + 2}`} className="museum-detail-image" />
                 ))}
-            </div>
+            </div> */}
             <div className="museum-images">
                 {museum.vrImages && museum.vrImages.map((image, index) => (
                     <iframe key={index} src={image} alt={`Detail ${index + 2}`} className="museum-detail-image" />
                 ))}
             </div>
+            
             <p className="museum-description">{museum.description}</p>
             <p className="museum-location">
                 Location: <a href={mapsUrl} target="_blank" rel="noopener noreferrer">View on Map</a>
