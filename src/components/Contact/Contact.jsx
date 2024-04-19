@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="contact">
             <h1>Contact Us</h1>
             <div className="contact-info">
-                <p>Feel free to reach out to me via email at <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p>Feel free to reach out to me via email at <a href="mailto:musevr@gmail.com">musevr@gmail.com</a></p>
             </div>
             <div className="contact-form">
                 <form>

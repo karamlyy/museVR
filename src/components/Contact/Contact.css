@@ -8,7 +8,7 @@
 }
 
 .contact h1 {
-    color: #4A90E2;
+    color: #0A2046;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -20,7 +20,7 @@
 
 .contact-info p,
 .contact-info a {
-    color: #4A90E2;
+    color: #450752;
     margin: 10px 0;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .contact-form button {
-    background-color: #4A90E2;
+    background-color: #450752;
     color: #FFFFFF;
     padding: 10px 0;
     border: none;
@@ -73,7 +73,7 @@
 }
 
 .contact-form button:hover {
-    background-color: #3C7CC9;
+    background-color:#2f0737;
 }
 
 @media (max-width: 768px) {

@@ -19,7 +19,7 @@ body {
 
 .navbar {
     height: 60px;
-    background-color: #15B87A;
+    background-color: #36084d;
     position: relative;
 
 }
@@ -31,6 +31,7 @@ body {
     margin-top: 5px;
     justify-content: center;
     align-items: center;
+    color: #7cc2bf;
 }
 
 .logo img {
@@ -57,12 +58,12 @@ body {
 .nav-elements ul a {
     font-size: 16px;
     font-weight: 400;
-    color: #2f234f;
+    color: #7cc2bf;
     text-decoration: none;
 }
 
 .nav-elements ul a.active {
-    color: #0A2046;
+    color: #ef0193;
     font-weight: 500;
     position: relative;
 }

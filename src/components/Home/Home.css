@@ -10,7 +10,7 @@
 .hero-section {
     background: url('../../assets/banner.jpg') no-repeat center center;
     background-size: cover;
-    color: #ffffff;
+    color: white;
     padding: 100px 20px;
 }
 
@@ -82,7 +82,7 @@
   opacity: 0.75;
   z-index: 1;
   padding: 15px;
-  background: #61d8a5; /* Customize color */
+  background: #0A2046; /* Customize color */
   border-radius: 50%; /* Circular shape */
   width: 30px; /* Size */
   height: 30px; /* Size */

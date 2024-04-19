@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          {/* <img src={Logo} alt="Logo" /> */}
+          
           MuseVR
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
