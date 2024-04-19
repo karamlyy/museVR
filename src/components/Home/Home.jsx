@@ -100,7 +100,7 @@ const Home = () => {
             <section className="hero-section">
                 <div className="hero-content">
                     <h2 className='hero-section-title'>Discover Museums Around Azerbaijan</h2>
-                    <p className='hero-section-description'>Explore the art, history, and culture from the comfort of your home.</p>
+                    <p className='hero-section-description'>Exploring Azerbaijan's Museums and Monuments in Virtual Reality</p>
                     <Link to="/museums" className='getStarted'>Get Started</Link>
                 </div>
             </section>
@@ -124,7 +124,14 @@ const Home = () => {
 
             <section className="about-section">
                 <h2 className='about-section-title'>About Us</h2>
-                <p className='about-section-description'>Learn more about the world's museums and their collections through our curated listings and detailed pages.</p>
+                <p className='about-section-description'>
+                    Who are we: Exploring Azerbaijan's
+                    Museums and Monuments pioneering
+                    VR platform for Azerbaijani heritage <br></br>
+                    Global accessibility to cultural
+                    sites, engaging virtual experiences
+                    Virtual Reality
+                </p>
             </section>
 
             <footer className="home-footer">

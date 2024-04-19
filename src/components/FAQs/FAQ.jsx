@@ -10,6 +10,11 @@ const faqs = [
     question: "How can I find museum operating hours?",
     answer: "Operating hours vary by museum. Please check the specific museum's detail page on our site for the most up-to-date information."
   },
+
+  {
+    question: "Can I find a museum nearby?", 
+    answer: "Yes! We put the location of each museum on details page. You can find nearby museums on the map"
+  }
   
 ];
 
